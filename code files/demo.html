@@ -1,0 +1,162 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+    <title>contact details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <script>
+     /* function book()
+      {
+        alert("Thank you !!! , Your Feedback is Sent.")
+      }
+
+      function validateForm()
+      {
+        if (inputtx.value.length == 0)
+        { 
+          alert("You have empty fields.");  	
+          return false; 
+        }  	
+
+        else
+        {
+          alert("Successfully submitted.")
+        }
+        return true; 
+    }*/
+
+    var applicationNumber = Math.floor(Math.random() * 10000000 ) + 1;
+    
+
+    function submit()
+    {
+      alert("Your application is recorded.")
+      alert("Your applicaion number is " + applicationNumber)
+    }
+    </script>
+<style>
+body, html {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+    };
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url(".jpg");
+
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+    .login-box{
+    
+    background:  #ff4c68;
+    color: black;
+    top: 50%;
+    left: 30%;
+    margin: 10px;
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-sizing: border-box;
+    padding: 10px 30px 50px 30px;
+}
+/* Add styles to the form container */
+.container {
+  position:center;
+  right: 60;
+  margin: 50px;
+  max-width: 500px;
+  padding: 20px;
+  background-color: silver;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+  
+}
+
+.btn:hover {
+  opacity: 1;
+}
+h1{
+    font-size: 5rem;
+   
+}
+ 
+</style>
+</head>
+<body>
+
+<div class="bg-img">
+  <div style="text-align: center;">
+      <h1>JOIN OUR FAMILY</h1>
+      <h4>9877654451-Call and Whatsapp</h4>
+      <h4>fitnessphysique@gmail.com</h4>
+    </div>
+	<div class="login-box" style="margin-bottom: 2%;">
+<form action="form" class="container" method="POST">
+<form name="form" action="" method="post" enctype="text/plain" onsubmit="return(validateForm())">
+    <label for="Name"><b>Name</b></label>
+    <input type="text" placeholder="Enter full name" name="name"/>
+
+    <br><label for="psw"><b>Email-id<sup>*</sup></b></label>
+    <input type="text" placeholder="Enter valid email" name="mailid"/>
+	<h5><b>Date of Joining:</b></h5><input type="date" name="date"><br/>
+	<br><b> Phone number:<sup>*</sup></b><input type="number"  placeholder="Enter Phone no" name="phno" size="40"/><br/>
+	
+		<div class="error" id="countryErr"></div>
+		</br><label><b>Select the Course Preferred</b></label>
+        <div class="form-inline">
+            <label><input type="checkbox" name="citizen" value="US Citizen">US Citizen</label>
+            <label><input type="checkbox" name="citizen" value="EU Citizen">EU Citizen</label>
+            <label><input type="checkbox" name="citizen" value="Indian Citizen"> Indian Citizen</label>
+			<label><input type="checkbox" name="citizen" value="Others">Others</label>
+			</div>
+		<label for="address"><b>Home Address<sup>*</sup></b></label>
+		<textarea rows="4" cols="30" name="address" id="address"></textarea></br>
+   
+      </form>
+
+  
+ <button class="btn btn-danger btn-lg book-online-button button" onclick="submit()">Book Now</button>
+<button class="btn btn-danger btn-lg book-online-button button" button type="reset">Reset</button> 
+  </div>
+  <div id="root"></div>
+  <script type="text/JSX" src="react.js"></script>
+  </body>
+</html>

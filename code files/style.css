@@ -1,0 +1,218 @@
+body,h1,h2,h3{
+    font-family: 'Lato', sans-serif;
+  }
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:400px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+h1{
+    font-size: 5rem;
+    padding-bottom: 4%;
+	color: #3A4545;
+}
+
+p{
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+.services-heading{
+    padding-bottom: 10%;
+}
+
+.download-button{
+    color: white;
+}
+
+.heading2{
+    color:  #3A4545;
+    padding-left: 0.1in;
+}
+
+img{
+    width: 90%;
+}
+
+  a{
+      font-size: 1.4rem;
+	  font-family:Arial Black;
+  }
+
+  #title{
+    background-image:url("wo.jpg");
+  }
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .navbar-brand{
+    padding-left: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+	font-family:Serif;
+  }
+
+  .nav-item{
+    padding: 0px 18px;
+  }
+  
+  .nav-link{
+    font-size: 2.0rem;
+	font-family:Serif;
+	
+  }
+  
+.container-fluid{
+    padding: 10% 15% 2%;
+    padding-bottom: 12%;
+  }
+  
+.btn{
+    margin: 40px 15px;
+    font-size: 1.8rem;
+    padding: 1.7%;
+    font-family: 'Lato', sans-serif;
+}
+
+.heading{
+    color: #3C6879;
+    font-size: 3rem;
+    line-height: 5rem;
+    padding: 30px 0px;
+    font-size: 12rem;
+    line-height: 1;
+	font-family:Georgia;
+    }
+
+.text{
+    
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.about{
+    background-image: url("about.jpg") ;
+    padding: 10% 2%;
+    color: #3C6879;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+.about-descrpition{
+    text-align: left;
+	color: black;
+}
+
+.about-descrpition-1{
+    padding-top: 5%;
+    color: rgba(255, 255, 255, 0.562);
+    font-family: 'Noto Sans JP', sans-serif;
+	color: #175B85;
+}
+
+#services{
+    text-align: center;
+    padding: 10% 7%;
+    background-color: #D4E6F1;
+}
+
+.services-row{
+    padding-bottom: 2%;
+}
+
+.service-num{
+    font-size: 10rem;
+    color: #20627C;
+}
+
+.service-text{
+    font-size: 2rem;
+    position: relative;
+	 color: #2B2B4F;
+	 font-family:
+    
+}
+
+.book-online-text{
+    padding-top: 10%;
+	color: #20627C;
+	
+}
+
+#book-online{
+    padding-left: 30%;
+		
+}
+
+#pricing{
+
+    background-color: #D4E6F1;
+
+}
+
+.pricing-heading{
+    text-align: center;
+    color: #154360;
+    padding-top: 10%;
+    font-size: 6rem;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+	
+  }
+
+.pricing-coloumn{
+    padding: 20px;
+  }
+  
+.card-header{
+
+    font-size: 4rem;
+}
+
+.card-body{
+    line-height: 0.8cm;
+    padding-right: 9%;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #50AAE2;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #e04040;
+    color: white;
+  }
+  h2{
+	  font-size:4rem;
+	  text-align: center;
+	 font-family:sans-serif;
+	 color:#3A4545;
+	 
+  }
+  .gallery{
+	  background-image: url("gallery.jpg") ;
+	padding:10px;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+  }
+
+ 
+	 

@@ -1,0 +1,144 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+    <title>contact details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	
+<link rel="shortcut icon" type="image/x-icon" href="logo2.jpg"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+	<script src="app.js"></script>
+	<script>
+	
+    function submit()
+    {
+      alert("Your application is recorded.")
+    }
+    
+	 </script>
+<style>
+body, html {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+    };
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-color:white;
+background-size: cover;
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+    .login-box{
+    color: black;
+    top: 50%;
+    left: 30%;
+    margin: 10px;
+	margin-left: 10%;
+	background-image: url("contact.jpg");
+	background-repeat: no-repeat;
+	background-size: center;
+    box-sizing: border-box;
+    padding: 10px 30px 50px 30px;
+}
+/* Add styles to the form container */
+.container {
+
+  position:relative;
+  right: 60;
+  margin: 50px;
+  max-width: 600px;
+  padding: 20px;
+  background-color:transparent;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=number] {
+  width: 80%;
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password] {
+  background-color: #ddd;
+  outline: black;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: 10px;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  
+}
+
+.btn:hover {
+  opacity: 1;
+}
+h1{
+    font-size: 5rem;
+   font-family:Book Antiqua;
+}
+ .box{
+ margin:10%;
+ }
+ p{
+ font-family:Bahnschrift Light;
+font-size:2.5rem;
+color:#174D92 ;
+ }
+ 
+</style>
+</head>
+<body>
+
+			
+<div class="bg-img">
+  <div style="text-align: center;">
+       <h1><b>D-SPORTS ACADEMY</b></h1>
+	   <p>Inspire the presence of living</p>
+    </div>
+	<div class="login-box" style="margin-bottom: 2%;">
+<form action="form" class="container" method="POST">
+<form name="form" action="" method="post" enctype="text/plain" onsubmit="return(validateForm())">
+    <label for="Name" required><b>NAME</b></label>
+    <input type="text" placeholder="Enter full name" name="name"/>
+
+    <br><label for="psw" required><b>EMAIL-ID<sup>*</sup></b></label>
+    <input type="text" placeholder="Enter valid email" name="mailid" />
+	<br><b> PHONE NUMBER:<sup>*</sup></b><br><input type="number"  placeholder="Enter Phone no" name="phno" size="40"/><br/>
+          </form>
+    &nbsp &nbsp <a class="btn btn-warning" href="main.html" ><b>LOGOUT</b></a>
+ <button class="btn btn-danger btn-lg book-online-button button" onclick="submit()">SUBMIT</button>
+	 </div>
+       </form>
+	   
+       
+	 </div>
+</form>
+  </body>
+</html>

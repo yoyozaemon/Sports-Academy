@@ -1,0 +1,17 @@
+body { 
+     background-color:#8EAED1;
+     color:black;
+}
+h1{
+    font-size: 2.5rem;
+    padding-bottom:1%;
+    text-align: center;
+    color: #004040;
+	font-family:Optima;
+}
+header{
+    width:100%;
+    height:55px;
+    background-color: rgb(223, 230, 230);
+    
+}
